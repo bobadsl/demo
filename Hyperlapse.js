@@ -4,6 +4,8 @@
  * @copyright Teehan+Lax 2013
  */
 
+
+//add prototype to primites , not reel i best practice
 Number.prototype.toRad = function() {
 	return this * Math.PI / 180;
 };
